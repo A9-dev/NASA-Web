@@ -10,14 +10,30 @@
 </head>
 
 <body>
-    <div class="container" id="mainID">
+    <div class="jumbotron">
+        <h1 class="display-4">NASA API Website</h1>
+        <p class="lead">This is a test website that has features implementing one of NASA's open APIs</p>
+        <a href="https://api.nasa.gov/">Go to the NASA API list</a>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <div class="container-fluid" id="infoArea">
 
+                </div>
+            </div>
+            <div class="col">
+                <div class="container" id="mainID">
+
+                </div>
+            </div>
+
+        </div>
         <div class="container" id="buttonContainer">
             <button class="btn btn-primary btn-lg" onclick="buttonClicked()">Show me the space image of the
                 day.</button>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
