@@ -12,5 +12,4 @@ function buttonClicked() {
     var infoStr = `<p class="display-4">${data.title}</p><blockquote class="blockquote"><p class="mb-0">${data.explanation}</p><footer class="blockquote-footer">${data.date} ${data.copyright}</cite></footer></blockquote>`
     document.getElementById("infoArea").innerHTML = infoStr;
     document.getElementById("buttonContainer").innerHTML = "";
-
 }
